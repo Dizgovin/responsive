@@ -1,8 +1,4 @@
-@media( max-width: 500px){
-  h1{
-    text-align: center;
-    font-size: 10rem;
-  }
+@media( max-width: 820px){
   .main{
     width: 80%;
     margin: 10%;
@@ -10,11 +6,16 @@
   p{
     text-align: center;
   }
+  .logo{
+    width: 80%;
+    margin: 10%;
+  }
   h2{
     text-align: center;
   }
   h1 {
-    font-size: 2rem;
+    text-align: center;
+    font-size: 3em;
   }
   footer{
     text-align: center;
@@ -37,33 +38,29 @@
 
 
 
-@media(min-width:501px){
+@media(min-width:821px){
   .main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 50px;
-    gap: 200px ;
-  }
-  #heading{
-    grid-column: span 2;
+    display: flex;
+    gap: 100px ;
   }
   .left{
-    grid-column: span 1;
     float: left;
   }
+  .card{
+    margin: 80px 0px 0px 0px;
+  }
   .right{
-    grid-column: span 1;
     float: right;
   }
 
-  footer{
-    float: left;
-    padding-top: 120px;
-    margin: 0px 0px ;
+  #footer{
+    float: right;
+    padding:5% 0% 0% 0%;
   }
   h1 {
     font-size: 5rem;
-    width: 100%;
+    width: 80%;
+    margin: 0% 10% 0% 10%;
     text-align: center;
   }
   .tile-image{
@@ -78,10 +75,9 @@
   h2{
     font-size: 2rem;
     margin: 10px 0px 20px 0px;
-
   }
   img{
-    margin: 0px 50px 0px 0px ;
+    margin: 20px 20px 0px 0px ;
   }
   }
 
@@ -98,5 +94,6 @@ body {
 .main {
   flex: 1;
 }
+
 
 
